@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="stylesheet/style.css">
+	<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body>
+	<div class="main w-full min-h-screen bg-zinc-900 text-white tracking-tighter p-10">
+		<a href="/" class="text-blue-300 inline-block mb-10">Go back to Home</a>
+		<form action="/edit" method="POST">
+			<input class=" outline-none block px-5 py-2 w-1/4 rounded-md bg-zinc-800 text-zinc-600" type="text"
+				placeholder="Previous Value" name="previous" value="<%= filename %>">
+			<input class=" outline-none block px-5 py-2 w-1/4 rounded-md  bg-zinc-800 mt-2" type="text"
+				placeholder="New Value" name="new">
+			<input class="mt-2 bg-yellow-600 px-5 py-2 rounded-md" type="submit" value="update Now">
+		</form>
+
+	</div>
+</body>
+
+</html>

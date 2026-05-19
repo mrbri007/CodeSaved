@@ -1,0 +1,1 @@
+// npm init --> package.json download kiya haii and it contains Documentation about your project like the things used in this project and which script 

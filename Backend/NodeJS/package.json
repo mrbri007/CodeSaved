@@ -1,0 +1,22 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Brijesh Gupta",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node ./index.js",
+    "kendalljenner": "echo \"Error: we can create an custome script \"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "accessibility": "^3.0.13",
+    "ejs": "^3.1.10",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  },
+  "keywords": []
+}
